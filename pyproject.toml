@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 79
+
+[tool.flake8]
+max-line-length = 79
+extend-ignore = "E203, E501"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.pylint.MASTER]
+disable = [
+    "W1203"  # logging-fstring-interpolation
+]
