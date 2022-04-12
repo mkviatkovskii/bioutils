@@ -17,5 +17,5 @@ in [0, 1] interval. By default is 0.95.
 
 ## Example
 ```bash
-python3 ./find_gene_like_in_contigs.py -i examples/gregalis.fa -o output.fa
+python3 ./longest_gene.py -i examples/gregalis.fa -o output.fa
 ```
